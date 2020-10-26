@@ -1,5 +1,7 @@
 """Python file that contains all the conversion methods, postfix to infix, infix to postfix, posteval, infixeval and the stack and queue class."""
+
 import random
+
 class Stack:
     def __init__(self):
         self.__items = []
@@ -276,18 +278,13 @@ def infix_evaluation(infix):
 #print(infix_to_postfix("(A+(B-C))*((D-E)/((F-G)+H))"), "Expecting (ABC-+DE-FG-H+/*)")
 
 ##tests from http://www.cs.csi.cuny.edu/~zelikovi/csc326/data/assignment5.htm
-print(postfix_evaluation("4572+-*"), """Expected output: -16""")
-print(postfix_evaluation("34+2*7/"), """Expected output: 2""")
-print(postfix_evaluation("45+"), """Expected output: 9""")
-print(postfix_evaluation("45+72-*"), """Expected output: 45""")
-print(postfix_evaluation("57+62-*"), """Expected output: 48""")
-print(postfix_evaluation("42351-+*+"), """Expected output: 18""")
-print(postfix_evaluation("42+351-*+"), """Expected output: 18""")
-
-
-
-
-
+#print(postfix_evaluation("4572+-*"), """Expected output: -16""")
+#print(postfix_evaluation("34+2*7/"), """Expected output: 2""")
+#print(postfix_evaluation("45+"), """Expected output: 9""")
+#print(postfix_evaluation("45+72-*"), """Expected output: 45""")
+#print(postfix_evaluation("57+62-*"), """Expected output: 48""")
+#print(postfix_evaluation("42351-+*+"), """Expected output: 18""")
+#print(postfix_evaluation("42+351-*+"), """Expected output: 18""")
 
 #print(infix_evaluation("4+5")), """Expected output 9"""
 #print(infix_evaluation("3+5+7")), """Expected output 15"""
