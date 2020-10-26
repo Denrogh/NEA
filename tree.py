@@ -1,4 +1,4 @@
-
+"""File containing code used to generate tree structures"""
 class Node:
     def __init__(self,value):
         self.__left = None
