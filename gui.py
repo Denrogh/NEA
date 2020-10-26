@@ -137,7 +137,6 @@ class VisualNode(Node):
 
 
 
-
 class Menu:
     """Base Menu Object"""
 
@@ -786,13 +785,3 @@ def GraphicalInterface():
             pygame.display.update()
 
 GraphicalInterface()
-#print(width//2)
-#InOrderTree = Menu(screen, "In-Order Traversal", red)
-#print(width // 2)
-#print(0.5 * width // 2)
-#print(0.25 * width // 2)
-#print(0.25 * width // 2)
-#print(0.1 * width // 2)
-#print(1.5 * width // 2)
-#print(1.25 * width // 2)
-#print(1.75 * width // 2)
